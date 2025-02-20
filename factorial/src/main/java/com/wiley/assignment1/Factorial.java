@@ -60,7 +60,7 @@ public class Factorial {
 		 
 		int result = 1;
 		//YOUR CODE STARTS HERE
-		for (int i = 2; i < num + 1; i++) {
+		for (int i = 2; i < num + 1; i++) { //by adjusting the loop range, we dont need another variable
 			result *= i;
 		}
 		//YOUR CODE ENDS HERE
